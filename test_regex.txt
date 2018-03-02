@@ -1,0 +1,7 @@
+Of course, + is not the only operator you can overload. Ruby allows you to define
+more than twenty operators for your classes. Among these are the other familiar arith-
+metic operators of subtraction ( - ), division ( / ), and multiplication ( * ), along with the
+modulo operator ( % ). You can also define your own version of the bit-oriented and ( & )
+or ( | ), as well as the exclusive or ( ^ ) opera
+Ruby
+Ruby iisisiisi ruby iiisi ruby ....Ruby
