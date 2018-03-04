@@ -29,3 +29,22 @@ num = '1233333'
 print(alphaNum.isalnum())
 print(alpha.isalnum())
 print(num.isdigit())
+
+# formating of string in python 3.6
+
+cash = 50
+first_way = f'I have a {cash}$ cash.'
+print(first_way)
+second_way = 'I have a {}$ cash'.format(cash)
+print(second_way)
+
+str = 'top ten programming language in 2016'
+splitted_str = str.split()
+print(splitted_str)
+
+for i in splitted_str:
+    print(i, end=' ')
+
+print('\n')
+url = '-'.join(splitted_str)
+print(url, '.html')
