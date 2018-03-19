@@ -10,5 +10,8 @@ def main():
         if patternMatch:
             print(patternMatch.group())
 
+    file = open('google.txt')
+    for i in file:
+        print(re.sub('(G|g)oogle', '******', i), end='\n')
 
 if __name__ == '__main__': main()
